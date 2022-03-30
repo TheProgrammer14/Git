@@ -9,7 +9,7 @@
 using namespace std;
 
 int main(){
- int firstnumber, secondnumber, sumoftwonumber;
+ int firstnumber, secondnumber, sumoftwonumber, diffoftwonumbers;
 
  cout<<"Enter First Number: ";
  cin>>firstnumber;
@@ -17,10 +17,11 @@ int main(){
 cout<<"Enter Second Number: ";
 cin>>secondnumber;
 
-
 sumoftwonumber=firstnumber+secondnumber;
+diffoftwonumbers=firstnumber-secondnumber;
 
 cout<<endl<<firstnumber<<" + "<<secondnumber<<" = "<< sumoftwonumber;
+cout<<endl<<firstnumber<<" - "<<secondnumber<<" = "<< diffoftwonumbers;
 
 return 0;
 }

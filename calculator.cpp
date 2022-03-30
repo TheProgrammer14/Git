@@ -9,7 +9,7 @@
 using namespace std;
 
 int main(){
- int firstnumber, secondnumber, sumoftwonumber, diffoftwonumbers;
+ int firstnumber, secondnumber, sumoftwonumber, diffoftwonumbers, quotwonumbers,prooftwonumbers;
 
  cout<<"Enter First Number: ";
  cin>>firstnumber;
@@ -19,9 +19,14 @@ cin>>secondnumber;
 
 sumoftwonumber=firstnumber+secondnumber;
 diffoftwonumbers=firstnumber-secondnumber;
+prooftwonumbers=firstnumber*secondnumber;
+quotwonumbers=firstnumber/secondnumber;
 
 cout<<endl<<firstnumber<<" + "<<secondnumber<<" = "<< sumoftwonumber;
 cout<<endl<<firstnumber<<" - "<<secondnumber<<" = "<< diffoftwonumbers;
+cout<<endl<<firstnumber<<" * "<<secondnumber<<" = "<< prooftwonumbers;
+
+cout<<endl<<firstnumber<<" / "<<secondnumber<<" = "<< quotwonumbers;
 
 return 0;
 }

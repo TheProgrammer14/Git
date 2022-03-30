@@ -12,7 +12,7 @@ using namespace std;
 
 int main(){
 
-
+cout<<"Calculator"<<endl
  int firstnumber, secondnumber, sumoftwonumber, diffoftwonumbers, quotwonumbers,prooftwonumbers, modulooftwonumbers;
 
  cout<<"Enter First Number: ";
